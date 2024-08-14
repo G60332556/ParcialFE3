@@ -1,14 +1,18 @@
-import Card from "./Components/Card";
+import { useState } from "react";
+import "./App.css"
+import Form from "./Components/Form";
 
 
 function App() {
+
+
   return (
-    <div className="App">
-      <h1>Carga de estudiantes</h1>
-      <form></form>
-      <Card />
-    </div>
-  );
+    <>
+      <h1>Alumnos con su Materia Favorita</h1>
+      <Form/>
+ 
+    </>
+  )
 }
 
 
